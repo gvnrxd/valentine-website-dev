@@ -1,0 +1,103 @@
+:root {
+  --step--2: clamp(0.7813rem, 0.7813rem + 0.015vw, 0.8rem);
+  --step--1: clamp(0.9375rem, 0.9375rem + 0.05vw, 1rem);
+  --step-0: clamp(1.125rem, 1.125rem + 0.1vw, 1.25rem);
+  --step-1: clamp(1.35rem, 1.35rem + 0.17vw, 1.5625rem);
+  --step-2: clamp(1.62rem, 1.62rem + 0.2665vw, 1.9531rem);
+  --step-3: clamp(1.944rem, 1.944rem + 0.3979vw, 2.4414rem);
+  --step-4: clamp(2.3328rem, 2.3328rem + 0.5752vw, 3.0518rem);
+  --step-5: clamp(2.7994rem, 2.7994rem + 0.8123vw, 3.8147rem);
+  --step-6: clamp(3.3592rem, 3.3592rem + 1.1273vw, 4.7684rem);
+  --step-7: clamp(4.0311rem, 4.0311rem + 1.5435vw, 5.9605rem);
+
+  --space-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+  --space-2xs: clamp(0.5625rem, 0.5625rem + 0.05vw, 0.625rem);
+  --space-xs: clamp(0.875rem, 0.875rem + 0.05vw, 0.9375rem);
+  --space-s: clamp(1.125rem, 1.125rem + 0.1vw, 1.25rem);
+  --space-m: clamp(1.6875rem, 1.6875rem + 0.15vw, 1.875rem);
+  --space-l: clamp(2.25rem, 2.25rem + 0.2vw, 2.5rem);
+  --space-xl: clamp(3.375rem, 3.375rem + 0.3vw, 3.75rem);
+  --space-2xl: clamp(4.5rem, 4.5rem + 0.4vw, 5rem);
+  --space-3xl: clamp(6.75rem, 6.75rem + 0.6vw, 7.5rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.3125rem, 0.3125rem + 0.25vw, 0.625rem);
+  --space-2xs-xs: clamp(0.5625rem, 0.5625rem + 0.3vw, 0.9375rem);
+  --space-xs-s: clamp(0.875rem, 0.875rem + 0.3vw, 1.25rem);
+  --space-s-m: clamp(1.125rem, 1.125rem + 0.6vw, 1.875rem);
+  --space-m-l: clamp(1.6875rem, 1.6875rem + 0.65vw, 2.5rem);
+  --space-l-xl: clamp(2.25rem, 2.25rem + 1.2vw, 3.75rem);
+  --space-xl-2xl: clamp(3.375rem, 3.375rem + 1.3vw, 5rem);
+  --space-2xl-3xl: clamp(4.5rem, 4.5rem + 2.4vw, 7.5rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(1.125rem, 1.125rem + 1.1vw, 2.5rem);
+
+  /* Border Radius Scale */
+  --radius-3xs: 2px;
+  --radius-2xs: 4px;
+  --radius-xs: 6px;
+  --radius-s: 8px;
+  --radius-m: 12px;
+  --radius-l: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px; /* Fully rounded/pill */
+
+  /* Fonts */
+  --bebas: bebas-neue, sans-serif;
+  --oswald: oswald, sans-serif;
+  --inter: "inter-variable", sans-serif;
+
+  /* Color Scheme */
+  --white: #ffffff;
+  --white1: #fafafa;
+  --white2: #c9c9c9;
+  --white3: #d6d6d6;
+  --white4: #e3e3e3;
+  --white5: #f0f0f0;
+  --white6: #fcfcfc;
+
+  --black: #000000;
+  --black1: #0a0a0a;
+  --black2: #171717;
+  --black3: #242424;
+  --black4: #303030;
+  --black5: #3d3d3d;
+  --black6: #4a4a4a;
+  --black7: #575757;
+  --black8: #636363;
+  --black9: #707070;
+  --black10: #7d7d7d;
+  --black11: #8a8a8a;
+  --black12: #969696;
+  --black13: #a3a3a3;
+  --black14: #b0b0b0;
+  --black15: #bdbdbd;
+
+  --pink1: #ffe5ec;
+  --pink2: #ffc2d1;
+  --pink3: #ffb3c6;
+  --pink4: #ff8fab;
+  --pink5: #fb6f92;
+  --pink5: #cd4c6c;
+  --pink6: #913048;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--black3);
+  color: var(--white6);
+  height: 100%;
+}
+
+html,
+body {
+  background-color: var(--pink1);
+  color: var(--pink5);
+}
