@@ -6,6 +6,7 @@ const dressCodeMap = {
   "Round1 + Kami Ramen": "Casual and Comfy",
   "Monster Jam": "Casual",
   "Availa Dining Experience": "Casual Elegant",
+  "Avenida Brazil": "Casual Elegant",
 };
 
 function SuccessMessage({ date, dressCode }) {
@@ -80,6 +81,17 @@ function ContactForm() {
             onChange={(e) => setSelectedDate(e.target.value)}
           />
           Availa Dining Experience
+        </label>
+
+        <label className={styles.option}>
+          <input
+            type="radio"
+            name="valentine-date"
+            value="Avenida Brazil"
+            checked={selectedDate === "Avenida Brazil"}
+            onChange={(e) => setSelectedDate(e.target.value)}
+          />
+          Avenida Brazil
         </label>
 
         <ValidationError
